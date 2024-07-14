@@ -9,11 +9,11 @@ const Header = () => {
   const links = [
     {
       id: 1,
-      link: "Home",
+      link: "Projects",
     },
     {
       id: 2,
-      link: "Projects",
+      link: "Experience",
     },
     {
       id: 3,

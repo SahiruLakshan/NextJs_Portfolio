@@ -31,7 +31,7 @@ export const PinContainer = ({
   return (
     <Link
       className={cn(
-        "relative group/pin z-50  cursor-pointer",
+        "relative group/pin cursor-pointer",             //z50 - scrolling over fixed widget
         containerClassName
       )}
       onMouseEnter={onMouseEnter}
