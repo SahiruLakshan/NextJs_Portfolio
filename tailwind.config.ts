@@ -13,6 +13,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'blue-gradient': 'linear-gradient(to bottom, #000428, #004e92)', // Custom blue gradient
+      },
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
         shimmer: "shimmer 2s linear infinite",

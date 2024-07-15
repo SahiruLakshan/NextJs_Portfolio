@@ -21,8 +21,8 @@ const Header = () => {
     },
   ];
   return ( 
-    <div className="fixed top-0 w-full z-50 flex justify-center">
-      <div className="flex justify-between items-center h-20 px-4 text-white bg-black w-1/4 max-w-screen-lg p-2 rounded-full shadow-lg mt-6">
+    <div className="fixed top-0 w-full z-50 flex justify-center ">
+      <div className="flex justify-between items-center border h-14 px-4 text-white bg-black w-1/4 max-w-screen-lg p-2 rounded-full shadow-lg mt-6">
         <div className="flex justify-center w-full">
           <ul className="hidden md:flex">
             {links.map(({ id, link }) => (
