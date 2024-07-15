@@ -2,12 +2,14 @@ import React from "react";
 
 import { workExperience } from "@/data";
 import { Button } from "@/components/ui/MovingBorders";
+import Dotted from "@/components/animations/Dotted";
 
 const Experience = () => {
   return (
+    
     <div className="py-20 sm:px-10  w-full">
-      <div className="text-4xl font-bold text-center mb-12">EXPERIENCE</div>
-
+      <div className="text-3xl font-bold text-center mb-12">EXPERIENCE</div>
+      <Dotted>
       <div className="w-full mt-12 grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-10 justify-items-center md:px-44">
         {workExperience.map((card) => (
           <Button
@@ -42,7 +44,9 @@ const Experience = () => {
           </Button>
         ))}
       </div>
+      </Dotted>
     </div>
+    
   );
 };
 

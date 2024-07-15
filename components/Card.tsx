@@ -74,7 +74,7 @@ const cardData = [
 const App = () => {
   return (
     <div>
-      <div className="text-4xl font-bold text-center mb-12">PROJECTS</div>
+      <div className="text-3xl font-bold text-center mb-12">PROJECTS</div>
       <div className="flex flex-wrap justify-center">
         {cardData.map((card, index) => (
           <div
