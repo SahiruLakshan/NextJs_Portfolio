@@ -29,44 +29,44 @@ const Card = ({
 const cardData = [
   {
     img: "/img/ecommerce.jpg",
-    head: "Noteworthy technology acquisitions 2021",
+    head: "E-Commerce Web Application",
     description:
-      "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
-    href: "https://nextjs.org/learn",
+      "Here is a Laravel E-commerce web application for a Online Store. This system has all functionalities that has in a online store such as products purchasing, make online payments.",
+    href: "https://github.com/SahiruLakshan/Laravel_E-Commerce-site",
   },
   {
-    img: "/img/ecommerce.jpg",
-    head: "Innovative tech startups to watch",
+    img: "/img/company.jpg",
+    head: "Sri Lanka Defence Research Centre's Website",
     description:
-      "These startups are disrupting the tech industry with innovative solutions and cutting-edge technology.",
-    href: "https://google.com",
+      "This is a Laravel Website.This Web's purpose is providing information on the latest researches and innovations in various industry.",
+    href: "https://crd.lk",
   },
   {
-    img: "/img/ecommerce.jpg",
-    head: "AI advancements in 2022",
+    img: "/img/pms.jpg",
+    head: "This Project Management System for Sri Lanka Defence Research Centre.",
     description:
-      "Exploring the latest advancements in artificial intelligence and their potential impacts on various industries.",
-    href: "https://nextjs.org/learn",
+      "This is a Laravel System.This System for managing projects and show current progress of their projects.",
+    href: "https://github.com/SahiruLakshan/cdrd_pms",
   },
   {
-    img: "/img/ecommerce.jpg",
-    head: "Blockchain technology trends",
+    img: "/img/book.jpg",
+    head: "Online Book Store",
     description:
-      "An overview of the latest trends in blockchain technology and their applications in different sectors.",
-    href: "https://nextjs.org/learn",
+      "This is a MERN Stack project as my first MERN Stack project. This book store has basic functinalities like adding, editing and deleting books.",
+    href: "https://github.com/SahiruLakshan/MERN_Book_Store",
   },
   {
-    img: "/img/ecommerce.jpg",
-    head: "Cybersecurity challenges in 2022",
+    img: "/img/bmi.jpg",
+    head: "BMI Calculator",
     description:
-      "The most pressing cybersecurity challenges faced by organizations and strategies to mitigate them.",
-    href: "https://nextjs.org/learn",
+      "This is a Flutter based BMI Calculator.When enter Weight and Height, show BMI Value and status of your BMI value.",
+    href: "https://github.com/SahiruLakshan/bmi_calculator",
   },
   {
-    img: "/img/ecommerce.jpg",
-    head: "The future of quantum computing",
+    img: "/img/bank.jpg",
+    head: "Banking CLI Application",
     description:
-      "Insights into the future of quantum computing and its potential to revolutionize various fields.",
+      "This is a Python Command Line Interface Application. Functionalities are Deposit money, Withdraw money and check balance.",
     href: "https://nextjs.org/learn",
   },
 ];
@@ -75,7 +75,7 @@ const App = () => {
   return (
     <div>
       <div className="text-3xl font-bold text-center mb-12">PROJECTS</div>
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center text-justify">
         {cardData.map((card, index) => (
           <div
             key={index}
