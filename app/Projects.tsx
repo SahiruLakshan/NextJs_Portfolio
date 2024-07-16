@@ -5,9 +5,10 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div>
-      <Card/>
-    </div>
+    
+      <div>
+        <Card/>
+      </div>
   )
 }
 

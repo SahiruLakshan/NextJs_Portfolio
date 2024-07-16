@@ -73,6 +73,7 @@ const cardData = [
 
 const App = () => {
   return (
+    <section id="Projects">
     <div>
       <div className="text-3xl font-bold text-center mb-12">PROJECTS</div>
       <div className="flex flex-wrap justify-center text-justify">
@@ -91,6 +92,7 @@ const App = () => {
         ))}
       </div>
     </div>
+    </section>
   );
 };
 

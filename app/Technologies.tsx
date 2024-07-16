@@ -103,39 +103,46 @@ const Technologies: React.FC = () => {
       title: "MySQL",
       style: "shadow-gray-600",
     },
-    // {
-    //   id: 11,
-    //   img: tailwind,
-    //   title: "Tailwind CSS",
-    //   style: "shadow-sky-500",
-    // },
-    // {
-    //   id: 12,
-    //   img: postman,
-    //   title: "Postman",
-    //   style: "shadow-red-400",
-    // },
-    // {
-    //   id: 13,
-    //   img: github,
-    //   title: "GitHub",
-    //   style: "shadow-gray-400",
-    // },
-    // {
-    //   id: 14,
-    //   img: figma,
-    //   title: "Figma",
-    //   style: "shadow-gray-400",
-    // },
-    // {
-    //   id: 15,
-    //   img: xd,
-    //   title: "XD",
-    //   style: "shadow-purple-600",
-    // },
+    {
+      id: 14,
+      img: "/img/postgre.png",
+      title: "PotgreSQL",
+      style: "shadow-gray-600",
+    },
+    {
+      id: 15,
+      img: "/img/mongo.png",
+      title: "MongoDB",
+      style: "shadow-green-300",
+    },
+    {
+      id: 16,
+      img: "/img/postman.png",
+      title: "Postman",
+      style: "shadow-red-400",
+    },
+    {
+      id: 17,
+      img: "/img/github.png",
+      title: "GitHub",
+      style: "shadow-white",
+    },
+    {
+      id: 18,
+      img: "/img/figma.png",
+      title: "Figma",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 19,
+      img: "/img/xd.png",
+      title: "XD",
+      style: "shadow-purple-800",
+    },
   ];
 
   return (
+    <section id="Skills">
     <div>
       <div className="py-20 sm:px-10 w-full">
         <div className="text-3xl font-bold text-center mb-12">SKILLS</div>
@@ -156,6 +163,7 @@ const Technologies: React.FC = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

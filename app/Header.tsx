@@ -17,11 +17,26 @@ const Header = () => {
     },
     {
       id: 3,
+      link: "Skills",
+    },
+    {
+      id: 4,
       link: "Contact",
     },
+    
   ];
-  return ( 
-    <div className="fixed top-0 w-full z-50 flex justify-center ">
+
+  const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>, link:string) => {
+    e.preventDefault();
+    const section = document.getElementById(link);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+      setNav(false);
+    }
+  };
+
+  return (
+    <div className="fixed top-0 w-full z-50 flex justify-center">
       <div className="flex justify-between items-center border h-14 px-4 text-white bg-black w-1/4 max-w-screen-lg p-2 rounded-full shadow-lg mt-6">
         <div className="flex justify-center w-full">
           <ul className="hidden md:flex">
@@ -30,7 +45,9 @@ const Header = () => {
                 key={id}
                 className="nav-links px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 hover:text-white duration-200 link-underline"
               >
-                <Link href={`#${link}`}>{link}</Link>
+                <Link href={`#${link}`} onClick={(e) => handleLinkClick(e, link)}>
+                  {link}
+                </Link>
               </li>
             ))}
           </ul>
@@ -52,7 +69,7 @@ const Header = () => {
               key={id}
               className="px-4 cursor-pointer capitalize py-6 text-4xl"
             >
-              <Link onClick={() => setNav(!nav)} href={`#${link}`}>
+              <Link href={`#${link}`} onClick={(e) => handleLinkClick(e, link)}>
                 {link}
               </Link>
             </li>

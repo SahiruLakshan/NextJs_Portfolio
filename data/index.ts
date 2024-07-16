@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
@@ -174,7 +176,7 @@ export const navItems = [
     {
       id: 1,
       title: "Full Stack Web Developer Intern",
-      desc: "I did my 6 months internship at Centre for Defence Research & Development.",
+      desc: "Currently I am doing my 6 months internship at Centre for Defence Research & Development.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
@@ -204,18 +206,22 @@ export const navItems = [
   export const socialMedia = [
     {
       id: 1,
+      link: "https://github.com/SahiruLakshan",
       img: "/git.svg",
     },
     {
       id: 2,
+      link: "https://www.linkedin.com/in/sahiru-lakshan-3b36541b2/",
       img: "/link.svg",
     },
     {
       id: 3,
+      link: "https://www.behance.net/ahiruakshan",
       img: "/behance.svg",
     },
     {
       id: 4,
+      link: "https://stackoverflow.com/users/16580445/sahiru-lakshan",
       img: "/stackoverflow.svg",
     },
   ];

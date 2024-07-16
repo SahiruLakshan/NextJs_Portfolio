@@ -8,6 +8,7 @@ const Experience = () => {
   const isSingleCard = workExperience.length === 1;
 
   return (
+    <section id="Experience">
     <div className="py-20 sm:px-10 w-full">
       <div className="text-3xl font-bold text-center mb-12">EXPERIENCE</div>
       <Dotted>
@@ -47,6 +48,7 @@ const Experience = () => {
         </div>
       </Dotted>
     </div>
+    </section>
   );
 };
 
