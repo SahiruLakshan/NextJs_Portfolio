@@ -33,9 +33,9 @@ const Details = () => {
 
           <TypewriterEffectSmooth
             words={words}
-            className="sm:text-xl lg:text-4xl mb-5"
+            className="sm:text-xl md:text-2xl lg:text-4xl mb-5"
           />
-          <div className="text-white mt-5 lg:text-2xl sm:xl">
+          <div className="text-white mt-5 lg:text-2xl sm:xl md:text-2xl">
             Hi, I am Sahiru Lakshan from University of Colombo
           </div>
 

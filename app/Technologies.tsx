@@ -143,26 +143,28 @@ const Technologies: React.FC = () => {
 
   return (
     <section id="Skills">
-    <div>
-      <div className="py-20 sm:px-10 w-full">
-        <div className="text-3xl font-bold text-center mb-12 text-white">SKILLS</div>
-        <div className="w-full  mt-12 grid lg:grid-cols-7 sm:grid-cols-2 gap-x-10 gap-y-8 text-center justify-items-center md:px-44">
-          {techs.map(({ id, img, title, style }) => (
-            <div
-              key={id}
-              className={`shadow-md hover:scale-105 duration-500 py-2 px-4 rounded-lg ${style}`}
-              style={{
-                background:
-                  "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
-              }}
-            >
-              <img src={img} alt={title} className="w-20 mx-auto" />
-              <p className="mt-4 text-white">{title}</p>
-            </div>
-          ))}
+      <div>
+        <div className="py-20 sm:px-10 w-full">
+          <div className="text-3xl font-bold text-center mb-12 text-white">
+            SKILLS
+          </div>
+          <div className="w-full mt-12 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-x-2 sm:gap-x-3 lg:gap-x-10 gap-y-4 sm:gap-y-6 lg:gap-y-8 text-center justify-items-center md:px-44">
+            {techs.map(({ id, img, title, style }) => (
+              <div
+                key={id}
+                className={`shadow-md hover:scale-105 duration-500 py-2 px-4 rounded-lg ${style}`}
+                style={{
+                  background:
+                    "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+                }}
+              >
+                <img src={img} alt={title} className="w-20 mx-auto" />
+                <p className="mt-4 text-white">{title}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
-    </div>
     </section>
   );
 };
