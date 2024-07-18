@@ -34,7 +34,7 @@ const Experience = () => {
                   maxWidth: "550px",
                   width: "100%",
                 }}
-                className="flex-1 text-white dark:text-white border-neutral-200 dark:border-slate-800"
+                className="flex-1 text-white dark:text-white dark:border-slate-800"
               >
                 <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
                   <img
