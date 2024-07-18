@@ -145,7 +145,7 @@ const Technologies: React.FC = () => {
     <section id="Skills">
     <div>
       <div className="py-20 sm:px-10 w-full">
-        <div className="text-3xl font-bold text-center mb-12">SKILLS</div>
+        <div className="text-3xl font-bold text-center mb-12 text-white">SKILLS</div>
         <div className="w-full  mt-12 grid lg:grid-cols-7 sm:grid-cols-2 gap-x-10 gap-y-8 text-center justify-items-center md:px-44">
           {techs.map(({ id, img, title, style }) => (
             <div

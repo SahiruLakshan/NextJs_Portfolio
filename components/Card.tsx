@@ -75,7 +75,7 @@ const App = () => {
   return (
     <section id="Projects">
     <div>
-      <div className="text-3xl font-bold text-center mb-12">PROJECTS</div>
+      <div className="text-3xl font-bold text-center mb-12 text-white">PROJECTS</div>
       <div className="flex flex-wrap justify-center text-justify">
         {cardData.map((card, index) => (
           <div
