@@ -7,11 +7,11 @@ import Dotted from "@/components/animations/Dotted";
 
 const Details = () => {
   const words = [
-    { text: "FULL" },
-    { text: "STACK" },
-    { text: "WEB" },
-    { text: "DEVELOPER" },
-    { text: "&" },
+    { text: "FULL",className: "text-white" },
+    { text: "STACK",className: "text-white" },
+    { text: "WEB",className: "text-white" },
+    { text: "DEVELOPER",className: "text-white" },
+    { text: "&" ,className: "text-white"},
     {
       text: "UI/UX DESIGNER",
       className: "text-blue-500 dark:text-blue-500",
