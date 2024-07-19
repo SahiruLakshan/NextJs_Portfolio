@@ -34,20 +34,20 @@ const cardData = [
       "Here is a Laravel E-commerce web application for a Online Store. This system has all functionalities that has in a online store such as products purchasing, make online payments.",
     href: "https://github.com/SahiruLakshan/Laravel_E-Commerce-site",
   },
-  {
-    img: "/img/company.jpg",
-    head: "Sri Lanka Defence Research Centre's Website",
-    description:
-      "This is a Laravel Website.This Web's purpose is providing information on the latest researches and innovations in various industry.",
-    href: "https://crd.lk",
-  },
-  {
-    img: "/img/pms.jpg",
-    head: "This Project Management System for Sri Lanka Defence Research Centre.",
-    description:
-      "This is a Laravel System.This System for managing projects and show current progress of their projects.",
-    href: "https://github.com/SahiruLakshan/cdrd_pms",
-  },
+  // {
+  //   img: "/img/company.jpg",
+  //   head: "Sri Lanka Defence Research Centre's Website",
+  //   description:
+  //     "This is a Laravel Website.This Web's purpose is providing information on the latest researches and innovations in various industry.",
+  //   href: "https://crd.lk",
+  // },
+  // {
+  //   img: "/img/pms.jpg",
+  //   head: "Project Management System for Sri Lanka Defence Research Centre.",
+  //   description:
+  //     "This is a Laravel System.This System for managing projects and show current progress of their projects.",
+  //   // href: "",
+  // },
   {
     img: "/img/book.jpg",
     head: "Online Book Store",
@@ -80,7 +80,7 @@ const App = () => {
         {cardData.map((card, index) => (
           <div
             key={index}
-            className="w-full sm:w-1/2 md:w-1/4 p-2 flex flex-wrap mt-5 mb-24 items-center ml-1 justify-center"
+            className="w-full sm:w-1/2 lg:w-1/4 md:w-1/2 p-2 flex flex-wrap mt-5 mb-24 items-center ml-1 justify-center"
           >
             <Card
               img={card.img}
