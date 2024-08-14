@@ -176,7 +176,7 @@ export const navItems = [
     {
       id: 1,
       title: "Full Stack Web Developer Intern",
-      desc: "Currently I am doing my 6 months internship at Centre for Defence Research & Development.",
+      desc: "Completed my 6 months internship at Centre for Defence Research & Development.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
